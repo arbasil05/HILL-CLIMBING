@@ -1,6 +1,6 @@
 <h1>ExpNo 5 : Implement Simple Hill Climbing Algorithm</h1> 
-<h3>Name:             </h3>
-<h3>Register Number:             </h3>
+<h3>Name: Abdur Rahman Basil A H         </h3>
+<h3>Register Number: 212223040002       </h3>
 <H3>Aim:</H3>
 <p>Implement Simple Hill Climbing Algorithm and Generate a String by Mutating a Single Character at each iteration </p>
 <h2> Theory: </h2>
@@ -29,7 +29,7 @@ Feedback is provided in terms of heuristic function
 </p>
 <hr>
 <h3>Program</h3>
-``````
+```
 import random
 import string
 def generate_random_solution(answer):
@@ -70,7 +70,7 @@ def SimpleHillClimbing():
 #solution=generate_random_solution(answer)
 #print(evaluate(solution,answer))
 SimpleHillClimbing()
-``````
+```
 <h3> Steps Applied:</h3>
 <h3>Step-1</h3>
 <p> Generate Random String of the length equal to the given String</p>
