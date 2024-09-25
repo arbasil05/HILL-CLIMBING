@@ -30,12 +30,6 @@ Feedback is provided in terms of heuristic function
 <hr>
 <h3>Program</h3>
 ``````
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import random
 import string
 def generate_random_solution(answer):
