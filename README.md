@@ -1,24 +1,24 @@
 # ExpNo 5 : Implement Simple Hill Climbing Algorithm
-# Name: Abdur Rahman Basil A H
-# Register Number: 212223040002
+## Name: Abdur Rahman Basil A H
+## Register Number: 212223040002
 
 # Aim:
-# Implement Simple Hill Climbing Algorithm and Generate a String by Mutating a Single Character at each iteration
+Implement Simple Hill Climbing Algorithm and Generate a String by Mutating a Single Character at each iteration
 
 # Theory:
-# Hill climbing is a variant of Generate and test in which feedback from test procedure is used to help the generator
-# decide which direction to move in search space.
-# Feedback is provided in terms of heuristic function.
+Hill climbing is a variant of Generate and test in which feedback from test procedure is used to help the generator
+decide which direction to move in search space.
+Feedback is provided in terms of heuristic function.
 
 # Algorithm:
-# 1. Evaluate the initial state. If it is a goal state, then return it and quit. Otherwise, continue with the initial state
-# as the current state.
-# 2. Loop until a solution is found or there are no new operators left to be applied in the current state:
-#    a. Select an operator that has not yet been applied to the current state and apply it to produce a new state.
-#    b. Evaluate the new state:
-#        i. If it is a goal state, then return it and quit.
-#        ii. If it is not a goal state but better than the current state, then make the new state the current state.
-#        iii. If it is not better than the current state, then continue in the loop.
+1. Evaluate the initial state. If it is a goal state, then return it and quit. Otherwise, continue with the initial state
+as the current state.
+2. Loop until a solution is found or there are no new operators left to be applied in the current state:
+   a. Select an operator that has not yet been applied to the current state and apply it to produce a new state.
+   b. Evaluate the new state:
+      i. If it is a goal state, then return it and quit.
+      ii. If it is not a goal state but better than the current state, then make the new state the current state.
+      iii. If it is not better than the current state, then continue in the loop.
 
 # Steps Applied:
 # Step-1: Generate Random String of the length equal to the given String
@@ -27,7 +27,6 @@
 # Step-4: Loop Step-2 and Step-3 until we achieve the score to be Zero to reach Global Minima
 
 # Program
-```
 import random
 import string
 
@@ -84,8 +83,6 @@ def SimpleHillClimbing():
 # solution = generate_random_solution(answer)
 # print(evaluate(solution, answer))
 SimpleHillClimbing()
-```
-
 
 # Sample Input and Output
 # Sample String: Artificial Intelligence
