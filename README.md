@@ -21,10 +21,10 @@ as the current state.
       iii. If it is not better than the current state, then continue in the loop.
 
 # Steps Applied:
-Step-1: Generate Random String of the length equal to the given String
-Step-2: Mutate the randomized string, each character at a time
-Step-3: Evaluate the fitness function or Heuristic Function
-Step-4: Loop Step-2 and Step-3 until we achieve the score to be Zero to reach Global Minima
+### Step-1: Generate Random String of the length equal to the given String
+### Step-2: Mutate the randomized string, each character at a time
+### Step-3: Evaluate the fitness function or Heuristic Function
+### Step-4: Loop Step-2 and Step-3 until we achieve the score to be Zero to reach Global Minima
 
 # Program
 ```
