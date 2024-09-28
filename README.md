@@ -21,12 +21,13 @@ as the current state.
       iii. If it is not better than the current state, then continue in the loop.
 
 # Steps Applied:
-# Step-1: Generate Random String of the length equal to the given String
-# Step-2: Mutate the randomized string, each character at a time
-# Step-3: Evaluate the fitness function or Heuristic Function
-# Step-4: Loop Step-2 and Step-3 until we achieve the score to be Zero to reach Global Minima
+Step-1: Generate Random String of the length equal to the given String
+Step-2: Mutate the randomized string, each character at a time
+Step-3: Evaluate the fitness function or Heuristic Function
+Step-4: Loop Step-2 and Step-3 until we achieve the score to be Zero to reach Global Minima
 
 # Program
+```
 import random
 import string
 
@@ -83,16 +84,16 @@ def SimpleHillClimbing():
 # solution = generate_random_solution(answer)
 # print(evaluate(solution, answer))
 SimpleHillClimbing()
-
+```
 # Sample Input and Output
-# Sample String: Artificial Intelligence
-# Output:
-# Score: 643  Solution: 8RzF:oG ]%;CPORRMe!zGvk
-# Score: 609  Solution: 8RzF:oG ]%;CPqRRMe!zGvk
-# Score: 604  Solution: 8RzF:oG ]%;CPqRRMe!zGqk
-# Score: 594  Solution: 8RzF:oG ]%;CPqRRWe!zGqk
-# Score: 551  Solution: 8RzF:oGK]%;CPqRRWe!zGqk
-# ...................................................
-# ...................................................
-# Score: 1   Solution: Artificial Intelligencf
-# Score: 0   Solution: Artificial Intelligence
+## Sample String: Artificial Intelligence
+## Output:
+Score: 643  Solution: 8RzF:oG ]%;CPORRMe!zGvk
+Score: 609  Solution: 8RzF:oG ]%;CPqRRMe!zGvk
+Score: 604  Solution: 8RzF:oG ]%;CPqRRMe!zGqk
+Score: 594  Solution: 8RzF:oG ]%;CPqRRWe!zGqk
+Score: 551  Solution: 8RzF:oGK]%;CPqRRWe!zGqk
+ ...................................................
+ ...................................................
+ Score: 1   Solution: Artificial Intelligencf
+ Score: 0   Solution: Artificial Intelligence
