@@ -88,12 +88,12 @@ SimpleHillClimbing()
 # Sample Input and Output
 ## Sample String: Artificial Intelligence
 ## Output:
-Score: 643  Solution: 8RzF:oG ]%;CPORRMe!zGvk
-Score: 609  Solution: 8RzF:oG ]%;CPqRRMe!zGvk
-Score: 604  Solution: 8RzF:oG ]%;CPqRRMe!zGqk
-Score: 594  Solution: 8RzF:oG ]%;CPqRRWe!zGqk
-Score: 551  Solution: 8RzF:oGK]%;CPqRRWe!zGqk
- ...................................................
- ...................................................
- Score: 1   Solution: Artificial Intelligencf
- Score: 0   Solution: Artificial Intelligence
+#### Score: 643  Solution: 8RzF:oG ]%;CPORRMe!zGvk
+#### Score: 609  Solution: 8RzF:oG ]%;CPqRRMe!zGvk
+#### Score: 604  Solution: 8RzF:oG ]%;CPqRRMe!zGqk
+#### Score: 594  Solution: 8RzF:oG ]%;CPqRRWe!zGqk
+#### Score: 551  Solution: 8RzF:oGK]%;CPqRRWe!zGqk
+#### ...................................................
+#### ...................................................
+#### Score: 1   Solution: Artificial Intelligencf
+#### Score: 0   Solution: Artificial Intelligence
